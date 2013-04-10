@@ -24,3 +24,5 @@ Limitations
 -----------
 
 At the moment mincss only supports single selectors (if some are chained together with ',', they are taken as one big selector block). It'll also not cope well with SASS or LESS.
+
+In addition it currently does not keep the rules in the order they're written, since it uses and iterates over dictionaries.
